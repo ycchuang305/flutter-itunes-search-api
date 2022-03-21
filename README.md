@@ -1,16 +1,15 @@
 # itunes_search_api_example
 
-A new Flutter project.
+![structure](./docs/itunes-flutter-structure1.png)
+
+A Music Search demo app using iTunes search api, which implements the Domain-Driven Design architecture inspired by ResoCoder to separate this application into layers (presentation, application, domain, infrastructure), and demonstrate how to write Unit tests and Widget tests to achieve more than 90% test coverages. Please check my [Medium post](https://medium.com/@yc.chuang/flutter-music-search-app-with-unit-and-widget-tests-f516bdf063b4) for more details.
+
+## Preview
+
+![preview](./docs/itunes-flutter-preview.gif)
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+This project is created on Flutter 2.10.3. [Freezed](https://pub.dev/packages/freezed) and [json_serializable](https://pub.dev/packages/json_serializable) are being used for generating unions/sealed classes, and help us doing toJson , fromJson functionality, Please run below command in the CLI before you run the project.
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+`flutter pub run build_runner build --delete-conflicting-outputs`
