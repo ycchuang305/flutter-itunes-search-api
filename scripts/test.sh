@@ -3,7 +3,7 @@
 sh scripts/import_files_coverage.sh itunes_search_api_example
 
 # run tests and generate a coverage file (at /coverage/lcov.info)
-fvm flutter test --coverage
+flutter test --coverage
 
 # remove all generated files in lcov.info
 sh scripts/remove_gen_files_in_lcov.sh 
