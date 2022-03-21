@@ -2,8 +2,6 @@
 
 ![structure](./docs/itunes-flutter-structure1.png)
 
-![structure](./docs/itunes-flutter-structure2.png)
-
 A Music Search demo app using iTunes search api, which implements the Domain-Driven Design architecture inspired by ResoCoder to separate this application into layers (presentation, application, domain, infrastructure), and demonstrate how to write Unit tests and Widget tests to achieve more than 90% test coverages. Please check my [Medium post](https://medium.com/@yc.chuang/flutter-music-search-app-with-unit-and-widget-tests-f516bdf063b4) for more details.
 
 ## Preview
